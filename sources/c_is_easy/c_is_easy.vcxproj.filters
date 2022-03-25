@@ -1,30 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="debug.hpp">
-      <Filter>headers</Filter>
-    </ClInclude>
-    <ClInclude Include="c_is_easy.hpp">
-      <Filter>headers</Filter>
-    </ClInclude>
-    <ClInclude Include="kernel_defs.hpp">
-      <Filter>headers</Filter>
-    </ClInclude>
+    <ClInclude Include="c_is_easy.hpp" />
+    <ClInclude Include="debug.hpp" />
+    <ClInclude Include="kernel_defs.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="debug.cpp">
-      <Filter>sources</Filter>
-    </ClCompile>
-    <ClCompile Include="c_is_easy.cpp">
-      <Filter>sources</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="headers">
-      <UniqueIdentifier>{9d8a76f7-73c9-44ca-bebf-646b7e0ca9b2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="sources">
-      <UniqueIdentifier>{6c343c41-e955-4d1d-a042-4ce657435bff}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="c_is_easy.cpp" />
+    <ClCompile Include="debug.cpp" />
   </ItemGroup>
 </Project>

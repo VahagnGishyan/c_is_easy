@@ -12,7 +12,7 @@
 
 namespace c_is_easy
 {
-	const std::string  getenv(const std::string env_name);
+	const std::string C_IS_EASY_EXPORT getenv(const std::string env_name);
 }
 
 //////////////////////////////////////////////////////////////////////////
